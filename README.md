@@ -22,3 +22,6 @@ Add the following views:
 Extra Credit
 ------------
 Create a restful api to access books by series, writer, or artist
+
+#### Delivery instructions
+Do *not* fork this repository (for the sake of anyonymity).  Instead, clone this repo, check in your solution, zip up the files, and email the zip back to us.
