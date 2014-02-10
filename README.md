@@ -3,12 +3,12 @@ python 2.7
 pip
 sqlite
 
-To set up:
-`pip install -r requirements.txt`
-`python manage.py syncdb`
+To set up:  
+`pip install -r requirements.txt`  
+`python manage.py syncdb`  
 
-To test:
-`python manage.py runserver`
+To test:  
+`python manage.py runserver`  
 
 The problem
 ===========
