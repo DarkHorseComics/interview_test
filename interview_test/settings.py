@@ -26,6 +26,11 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
+TEMPLATE_DIRS = (
+    os.path.join(BASE_DIR, 'interview_test', 'templates')
+)
+
+LOGIN_REDIRECT_URL = '/'
 
 # Application definition
 
