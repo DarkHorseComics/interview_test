@@ -1,6 +1,8 @@
 bin
 include
 lib
+share
 *.pyc
 .Python
 .idea
+db.sqlite3

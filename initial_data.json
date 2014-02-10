@@ -1,0 +1,703 @@
+[
+{
+  "pk": 1, 
+  "model": "comics.series", 
+  "fields": {
+    "name": "Buffy the Vampire Slayer Season 8"
+  }
+},
+{
+  "pk": 2, 
+  "model": "comics.series", 
+  "fields": {
+    "name": "Conan The Cimmerian"
+  }
+},
+{
+  "pk": 3, 
+  "model": "comics.series", 
+  "fields": {
+    "name": "Frank Miller's Sin City "
+  }
+},
+{
+  "pk": 4, 
+  "model": "comics.series", 
+  "fields": {
+    "name": "Hellboy"
+  }
+},
+{
+  "pk": 5, 
+  "model": "comics.series", 
+  "fields": {
+    "name": "Star Wars: Crimson Empire "
+  }
+},
+{
+  "pk": 1, 
+  "model": "comics.contributor", 
+  "fields": {
+    "name": "Joss Whedon"
+  }
+},
+{
+  "pk": 2, 
+  "model": "comics.contributor", 
+  "fields": {
+    "name": "Dave Stewart"
+  }
+},
+{
+  "pk": 3, 
+  "model": "comics.contributor", 
+  "fields": {
+    "name": "Andy Owens"
+  }
+},
+{
+  "pk": 4, 
+  "model": "comics.contributor", 
+  "fields": {
+    "name": "Jo Chen"
+  }
+},
+{
+  "pk": 5, 
+  "model": "comics.contributor", 
+  "fields": {
+    "name": "Georges Jeanty"
+  }
+},
+{
+  "pk": 6, 
+  "model": "comics.contributor", 
+  "fields": {
+    "name": "Paul Lee"
+  }
+},
+{
+  "pk": 7, 
+  "model": "comics.contributor", 
+  "fields": {
+    "name": "Timothy Truman"
+  }
+},
+{
+  "pk": 8, 
+  "model": "comics.contributor", 
+  "fields": {
+    "name": "Tom\u00e1s Giorello"
+  }
+},
+{
+  "pk": 9, 
+  "model": "comics.contributor", 
+  "fields": {
+    "name": "Jos\u00e9 Villarrubia"
+  }
+},
+{
+  "pk": 10, 
+  "model": "comics.contributor", 
+  "fields": {
+    "name": "Richard Corben"
+  }
+},
+{
+  "pk": 11, 
+  "model": "comics.contributor", 
+  "fields": {
+    "name": "Frank Cho"
+  }
+},
+{
+  "pk": 12, 
+  "model": "comics.contributor", 
+  "fields": {
+    "name": "Frank Miller"
+  }
+},
+{
+  "pk": 13, 
+  "model": "comics.contributor", 
+  "fields": {
+    "name": "Mike Mignola"
+  }
+},
+{
+  "pk": 14, 
+  "model": "comics.contributor", 
+  "fields": {
+    "name": "John Byrne"
+  }
+},
+{
+  "pk": 15, 
+  "model": "comics.contributor", 
+  "fields": {
+    "name": "Randy Stradley"
+  }
+},
+{
+  "pk": 16, 
+  "model": "comics.contributor", 
+  "fields": {
+    "name": "Mike Richardson"
+  }
+},
+{
+  "pk": 17, 
+  "model": "comics.contributor", 
+  "fields": {
+    "name": "Paul Gulacy"
+  }
+},
+{
+  "pk": 18, 
+  "model": "comics.contributor", 
+  "fields": {
+    "name": "P. Craig Russell"
+  }
+},
+{
+  "pk": 19, 
+  "model": "comics.contributor", 
+  "fields": {
+    "name": "Dave Dorman"
+  }
+},
+{
+  "pk": 1, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Buffy the Vampire Slayer Season 8 #1", 
+    "series": 1, 
+    "description": "Since the destruction of the Hellmouth, the Slayers\u2014newly legion\u2014have gotten organized and are kicking some serious undead butt. But not everything's fun and firearms, as an old enemy reappears and Dawn experiences some serious growing pains\u2026\n\n_Buffy_ creator Joss Whedon brings Buffy back to Dark Horse in this direct follow-up to Season 7 of the smash-hit TV series.", 
+    "writers": [
+      1
+    ], 
+    "artists": [
+      2, 
+      3, 
+      4, 
+      5
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/78556435a74e4961bf5d08d0c0fa1087/public/cover_image", 
+    "issue_number": 1
+  }
+},
+{
+  "pk": 2, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Buffy the Vampire Slayer Season 8 #2", 
+    "series": 1, 
+    "description": "The destruction of Buffy's hometown, plus covert and powerful Slayer cells around the world, add up to a new label for the Scoobies: terrorist threat. Speaking of Sunnydale, the crater formerly known as has opened to reveal the witch Amy, and boy, is she pissed. Now: Giles, smoochies, a knife to the heart, and a big sleep. Season 8 continues.\n\n_Buffy_ creator Joss Whedon brings Buffy back to Dark Horse in this direct follow-up to Season 7 of the smash-hit TV series.\n", 
+    "writers": [
+      1
+    ], 
+    "artists": [
+      2, 
+      3, 
+      4, 
+      5
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/6e7137bfba7c42f8ae2692a3114cbaa6/public/cover_image", 
+    "issue_number": 2
+  }
+},
+{
+  "pk": 3, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Buffy the Vampire Slayer Season 8 #3", 
+    "series": 1, 
+    "description": "With Buffy incapacitated, Amy the witch has taken the opportunity to\u2014get this\u2014lay siege to Buffy's headquarters with an army of the undead. Willow takes her on in a witches' battle royal as hundreds of Slayers defend their Scottish citadel, but without the kiss of true love, Buffy will be out of commission indefinitely. Plus: an unwelcome familiar face, and an image you won't soon forget.\n\n_Buffy_ creator Joss Whedon brings Buffy back to Dark Horse in this direct follow-up to Season 7 of the smash-hit TV series.\n", 
+    "writers": [
+      1
+    ], 
+    "artists": [
+      2, 
+      3, 
+      4, 
+      5
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/20adf898dd9243c49e7b0b7a154e5dfa/public/cover_image", 
+    "issue_number": 3
+  }
+},
+{
+  "pk": 4, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Buffy the Vampire Slayer Season 8 #4", 
+    "series": 1, 
+    "description": "In the conclusion to Season 8's first arc, Buffy's back in action, thanks to a kiss of true love, but Willow's another story entirely\u2014her capture of Amy the witch opened up a magical trapdoor, and now the Wiccan is in the belly of the beast. To make matters worse, she's at the mercy of someone truly bent on revenge, and he's been waiting for this for a long time. \n\n_Buffy_ creator Joss Whedon brings Buffy back to Dark Horse in this direct follow-up to Season 7 of the smash-hit TV series.", 
+    "writers": [
+      1
+    ], 
+    "artists": [
+      2, 
+      3, 
+      4, 
+      5
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/fe94317a7eab4f868ab58a5124a8a203/public/cover_image", 
+    "issue_number": 4
+  }
+},
+{
+  "pk": 5, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Buffy the Vampire Slayer Season 8 #5", 
+    "series": 1, 
+    "description": "Buffy's new position as leader and figurehead of the world's five hundred most powerful women has made her a bigger target than ever before. The Chain tells the story of one of the decoy Buffy Slayers, a tale personally important to series creator Joss Whedon. Guest artist Paul Lee (_Conan_, _Tales of the Vampires_) pencils the first standalone issue of Season 8.\n\n_Buffy_ creator Joss Whedon brings Buffy back to Dark Horse in this direct follow-up to Season 7 of the smash-hit TV series.\n", 
+    "writers": [
+      1
+    ], 
+    "artists": [
+      2, 
+      3, 
+      4, 
+      6
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/d53374c1503a4ae7b884ce2c71518b88/public/cover_image", 
+    "issue_number": 5
+  }
+},
+{
+  "pk": 6, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Conan the Cimmerian #0", 
+    "series": 2, 
+    "description": "_Conan the Cimmerian_ #0 marks a transitional period in young Conan's life, as\nhe spurns the magicians, turncoats, and legal trappings of the cities he's\nseen in order to return to the beloved northern frontiers of Cimmeria, where\nhe was born and raised. It also marks a turning point in the artistic muscle\nthat will fuel Conan's adventures throughout 2008 and beyond. Writer Timothy\nTruman and Argentine artist Tom\u00e1s Giorello are joined by renowned colorist\nJos\u00e9 Villarrubia in this special issue, as they deliver their adaptation of\nRobert E. Howard's Cimmeria poem. And what's up with Conan? He fights for\nhis life when he crosses paths with a pack of Vanir raiders on the Cimmerian\nborder!\n  \n\u2022 **Taking our brutal barbarian into his next exciting era!**", 
+    "writers": [
+      7
+    ], 
+    "artists": [
+      2, 
+      8, 
+      9
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/a9d06910e08346febbad6dd70783ffad/public/cover_image", 
+    "issue_number": 0
+  }
+},
+{
+  "pk": 7, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Conan the Cimmerian #1", 
+    "series": 2, 
+    "description": "As hard as it's been for Conan to return to Cimmeria, things aren't getting\nany easier as he nears his goal, and he quickly runs afoul of raiders on the\nCimmerian borderlands. One stranger welcomes Conan home with a crack to the\nhead, and another begins to weave a tale about Conan's grandfather\u2014another\nCimmerian who was filled with wanderlust. _Conan the Cimmerian_ continues Dark\nHorse Comics' modern revitalization of Robert E. Howard's most beloved\ncharacter. This is a great jumping-on point for new readers! \n  \n\u2022 The star-studded team of Timothy Truman, Tom\u00e1s Giorello, Jos\u00e9 Villarrubia, Richard Corben, and Frank Cho launch Conan into a whole new era!", 
+    "writers": [
+      7
+    ], 
+    "artists": [
+      2, 
+      8, 
+      9, 
+      10, 
+      11
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/c514d22134724f9f8e3032c081222cc4/public/cover_image", 
+    "issue_number": 1
+  }
+},
+{
+  "pk": 8, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Conan the Cimmerian #2", 
+    "series": 2, 
+    "description": "Dark Horse's exciting new _Conan_ era continues with a second round of\nadventure! As Conan recovers from last issue's clash with raiders on the\nCimmerian borderlands, a kind stranger shelters him and weaves a tale of\nConan's grandfather, Connacht. As an older Cimmerian, Connacht inspired young\nConan with tales of dazzling lands and beautiful women, but the story the\nsnowbound stranger relates now is one of a brush with death and supernatural\nbeasts\u2014brought on after an act of selfless kindness. Is it true that no good\ndeed goes unpunished\u2026? With cover artist Frank Cho on board, writer\nTimothy Truman, artist Tom\u00e1s Giorello, and colorist Jos\u00e9 Villarrubia are again\njoined by comic-book veteran Richard Corben in a moody, horrific, and\nsurprising issue that will leave readers in a tailspin!", 
+    "writers": [
+      7
+    ], 
+    "artists": [
+      2, 
+      8, 
+      9, 
+      10, 
+      11
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/e0471e9ed9704cd88ca50ad31a083cb9/public/cover_image", 
+    "issue_number": 2
+  }
+},
+{
+  "pk": 9, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Conan the Cimmerian #3", 
+    "series": 2, 
+    "description": "A young Cimmerian huntress (a character seen in _Conan_ Volume 0: _Born on the\nBattlefield_) and Horsa (an Aesir leader from _The Frost-Giant's Daughter_)\nboth cross paths with Conan as he continues his dangerous trek through the\nsnowy mountain passes of Cimmeria. Fighting his way through the natural\ndangers of his barbaric homeland has been a welcome change from the mind games\nand treachery Conan found in the cities of the East, but there's an\nunfortunate lesson in treachery in store for Conan here, too. In a Richard\nCorben flashback sequence, Connacht (Conan's grandfather) seems to have found\na role for himself working in a busy city, but as the old saying goes, Fleas\nwill find a dog\u2026and trouble will find a Cimmerian.\n  \n\u2022 _Conan the Cimmerian_ continues Dark Horse Comics' modern revitalization of\nRobert E. Howard's most beloved character\u2013with another dream team of first-class storytellers!", 
+    "writers": [
+      7
+    ], 
+    "artists": [
+      2, 
+      8, 
+      9, 
+      10, 
+      11
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/d599d8558694467684eef9ca8dd416b9/public/cover_image", 
+    "issue_number": 3
+  }
+},
+{
+  "pk": 10, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Conan the Cimmerian #4", 
+    "series": 2, 
+    "description": "Conan finds himself at odds with Horsa\u2014an Aesir leader last seen in The Frost-Giant's Daughter\u2014when he tries to protect his former Cimmerian lover,\nCaollan, from Horsa's strange war party. Conan faces off against some strong\nAesir soldiers, as well as the colorful, yet foolhardy, berserker Thorgeir and\nthe powerful witch Olva. Being caught in the middle of a blood feud between\nCimmerian and Aesir chiefs is bad enough, but things get much worse when Olva\nsummons the demonic Skrae to hunt down Conan and his secretive ward. Richard\nCorben's flashback sequences\u2014featuring Conan's grandfather, Connacht\u2014take a\nsurprising turn when they dovetail into the present for an exciting\ncliffhanger!\n  \n\u2022 _Conan the Cimmerian_ continues Dark Horse Comics' unique exploration of\nRobert E. Howard's most beloved character.", 
+    "writers": [
+      7
+    ], 
+    "artists": [
+      2, 
+      8, 
+      9, 
+      11
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/97e8105107fd475789042d590dcdfe12/public/cover_image", 
+    "issue_number": 4
+  }
+},
+{
+  "pk": 11, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Conan the Cimmerian #5", 
+    "series": 2, 
+    "description": "A child that Conan's grandfather saved from death many years ago\u2014now an old\nman\u2014seeks to return the favor, but can he get to Conan and Caollan before\nHorsa's warriors capture their Cimmerian prey? And what good is an old man\nagainst Aesir soldiers and the vicious witch Olva? Thorgeir the Berserker gets\nhis second round with Conan, and Caollan shows just how tough and wily a\nCimmerian woman can be in battle\u2014even when outnumbered. Richard Corben\ncontributes stunning flashback scenes featuring Connacht, Conan's grandfather.\nIn this issue, Corben brings us to a dark, seemingly hopeless time in the\nolder Cimmerian's life, when he was betrayed and enslaved.", 
+    "writers": [
+      7
+    ], 
+    "artists": [
+      8, 
+      9, 
+      10, 
+      11
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/245dce5e4002401cac85901803074391/public/cover_image", 
+    "issue_number": 5
+  }
+},
+{
+  "pk": 12, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Frank Miller's Sin City Volume 1: The Hard Goodbye", 
+    "series": 3, 
+    "description": "The first volume of the crime-comic megahit that introduced the now-infamous Marv and spawned a blockbuster film hits the Dark Horse digital store, featuring the brand-new cover art Frank Miller created for the latest edition of the book!\n\nIt's a lousy room in a lousy part of a lousy town. But Marv doesn't care. There's an angel in the room. She says her name is Goldie. A few hours later, Goldie's dead without a mark on her perfect body, and the cops are coming before anyone but Marv could know she's been killed. Somebody paid good money for this frame\u2026\n\n\u2022 Over a million _Sin City_ books in print!\n\n\u2022 New cover by Frank Miller!\n\n\u2022 _The Hard Goodbye_ was the lead story in the _Sin City_ film, starring Mickey Rourke as Marv!\n", 
+    "writers": [
+      12
+    ], 
+    "artists": [
+      12
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/09b7a7d1d31a4d7a9f24f190d5227fd1/public/cover_image", 
+    "issue_number": 1
+  }
+},
+{
+  "pk": 13, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Frank Miller's Sin City Volume 2: A Dame to Kill For", 
+    "series": 3, 
+    "description": "Stuck with nothing but a seedy gumshoe job and some demons, Dwight's thinking of all the ways he's screwed up and what he'd give for one clear chance to wipe the slate clean, to dig his way out of the numb gray hell that is his life. And he'd give anything. Just to feel the fire. One more time. But he can't let himself lose control again, can't ever let the monster out. And then Ava calls.\n\n\u2022 Over a million _Sin City_ books in print!\n\n", 
+    "writers": [
+      12
+    ], 
+    "artists": [
+      12
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/c554abdab29b40798a581895bd59912b/public/cover_image", 
+    "issue_number": 2
+  }
+},
+{
+  "pk": 14, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Frank Miller's Sin City Volume 3: The Big Fat Kill", 
+    "series": 3, 
+    "description": "One of _Sin City_'s most fascinatingly conflicted characters, Dwight, returns in _The Big Fat Kill_, the third volume of Frank Miller's seminal noir comic and the inspiration for one of the segments of the blockbuster Sin City film! \n  \nFor Dwight, sometimes standing up for his friends means killing a whole lot of\npeople\u2026Not for revenge. Not because they deserve it. Not because it'll\nmake the world a better place. There's nothing righteous or noble about it.\nDwight's gotta kill them because he needs them dead.\n  \n\u2022 Over a million _Sin City_ books in print!  \n  \n\u2022 New cover by Frank Miller!  \n ", 
+    "writers": [
+      12
+    ], 
+    "artists": [
+      12
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/c99871c6f2d842e4b039ab21e6dc58b0/public/cover_image", 
+    "issue_number": 3
+  }
+},
+{
+  "pk": 15, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Frank Miller's Sin City Volume 4: That Yellow Bastard", 
+    "series": 3, 
+    "description": "Frank Miller changes the game in the fourth volume of his signature crime series, introducing the only truly heroic figure in _Sin City_'s world of vice, Detective Hartigan. A highlight of the series, and the inspiration for one of the segments of the blockbuster _Sin City_ film, That Yellow Bastard returns in a newly redesigned edition, with a brand-new cover by Miller!\n  \nThe worst thing to be in Basin City is an honest cop, but it's Hartigan's last\nday on the job, and he plans to go out with a bang. Little Nancy Callahan, age\neleven, has been kidnapped by a psycho who likes to hear children scream, and\nHartigan's going to find her no matter what it takes. No matter who the\npsycho's daddy is. All the prison time in the world won't change that. Hell of\na way to start retirement\u2026\n  \n\u2022 Over a million _Sin City_ books in print!  \n  \n\u2022 New cover by Frank Miller!  \n\n\u2022 _That Yellow Bastard_ was one of the stories in the _Sin City_ film, starring Bruce Willis as Hartigan and Jessica Alba as Nancy!", 
+    "writers": [
+      12
+    ], 
+    "artists": [
+      12
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/1e3410391264479a948b1648ec4371bd/public/cover_image", 
+    "issue_number": 4
+  }
+},
+{
+  "pk": 16, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Frank Miller's Sin City Volume 5: Family Values", 
+    "series": 3, 
+    "description": "Frank Miller's first-ever original graphic novel is one of _Sin City_'s nastiest yarns to date! Starring fan-favorite characters Dwight and Miho, this newly redesigned edition sports a brand-new cover by Miller!\n  \nThere's a kind of debt you can't ever pay off, not entirely. And that's the\nkind of debt Dwight owes Gail. The girls of Old Town have their own family\nvalues, their own laws\u2014and when someone too dumb to know better breaks them,\nan example needs to be set. Dwight's got his own reasons for taking the job,\nand deadly little Miho\u2026Miho likes to play with them a little first.\n  \n\u2022 Over a million _Sin City_ books in print!  \n  \n\u2022 New cover by Frank Miller!  \n  ", 
+    "writers": [
+      12
+    ], 
+    "artists": [
+      12
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/1ab75be1b5794ae09db5813eeff52392/public/cover_image", 
+    "issue_number": 5
+  }
+},
+{
+  "pk": 17, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Frank Miller's Sin City Volume 6: Booze, Broads, & Bullets", 
+    "series": 3, 
+    "description": "The _Sin City_ graphic novels are among the most widely acclaimed comics in\nhistory, but Frank Miller is also a master of the quick and dirty yarn.\nCollected in this sixth volume of his crime-comic megahit are all of Miller's _Sin City_ shorts and one-shots, newly redesigned with a brand-new cover by Miller!\n  \nCollecting classics like Just Another Saturday Night and Silent Night,\nboth starring the iconic big lug with a condition, Marv; The Customer Is\nAlways Right, featured in the _Sin City_ film; and The Babe Wore Red,\nstarring _Sin City_'s most enduring hero, Dwight; _Booze, Broads, & Bullets_\nspans every kind of dark business you might encounter on a cold night in Basin\nCity. It's sure to scratch your _Sin City_ itch again and again, in just that\nway that makes you itch for more.\n  \n\u2022 Over a million _Sin City_ books in print!  \n  \n\u2022 New cover by Frank Miller!  \n  \n\u2022 The Customer Is Always Right, included in this volume, was the opener of the _Sin City_ film, starring Josh Hartnett as the Salesman!  \n  \n", 
+    "writers": [
+      12
+    ], 
+    "artists": [
+      12
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/8c473533a22a47529314e63570cc0dad/public/cover_image", 
+    "issue_number": 6
+  }
+},
+{
+  "pk": 18, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Frank Miller's Sin City Volume 7: Hell and Back", 
+    "series": 3, 
+    "description": "_Hell and Back_, the final volume of Frank Miller's signature series, is the biggest and baddest _Sin City_ of them all! This newly redesigned edition features a brand-new cover by Miller!\n  \nIt's one of those clear, cool nights that drops in the middle of summer like a\ngift from on high. If it weren't for the rent, Wallace wouldn't have a care in\nthe world. Then he sees Esther, about to throw it all away\u2014and throw herself\noff a cliff. Wallace jumps in after her, saves her life, and falls in love,\nbut before he can find out what she was running from, she's gone again,\nkidnapped. But Wallace isn't the kind to lose his head. He's calm. Like a\nmonk. Like an executioner. And he'll find them.\n  \nWith a new look generating more excitement than ever before, this third\nedition is the perfect way to attract a whole new generation of readers to\nFrank Miller's masterpiece!\n  \n\u2022 Over a million _Sin City_ books in print!  \n  \n\u2022 New cover by Frank Miller!  \n  \n ", 
+    "writers": [
+      12
+    ], 
+    "artists": [
+      12
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/8ad6a355d6da40c996608896bd58e021/public/cover_image", 
+    "issue_number": 7
+  }
+},
+{
+  "pk": 19, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Hellboy: Seed of Destruction #1", 
+    "series": 4, 
+    "description": "From his apocalyptic origin in World War II England to the modern-day case of the sole survivor\nof a doomed Arctic expedition, Hellboy must battle vampire frog creatures and worse in his debut miniseries. Created by Mike Mignola, with a script by John Byrne and colors by Mark Chiarello. Hellboy is the World's Greatest Paranormal Investigator.\n\n", 
+    "writers": [
+      13, 
+      14
+    ], 
+    "artists": [
+      13
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/ba565ad825b14bca968f78d99ed053a2/public/cover_image", 
+    "issue_number": 1
+  }
+},
+{
+  "pk": 20, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Hellboy: Seed of Destruction #2", 
+    "series": 4, 
+    "description": "Things continue to get weirder for Hellboy in _Seed of Destruction_ #2. The World's Greatest Paranormal Investigator continues his search for clues to the mystery of the lost arctic expedition and the secret behind the strange vampire frog creature he battled in his first issue. The mystery deepens inside the crumbling walls of an\nancient mansion where we meet Hellboy's partners, Abe Sapien and Liz Sherman.\n\n", 
+    "writers": [
+      13, 
+      14
+    ], 
+    "artists": [
+      13
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/6d4e4af227bb406ebe2f613593973f13/public/cover_image", 
+    "issue_number": 2
+  }
+},
+{
+  "pk": 21, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Hellboy: Seed of Destruction #3", 
+    "series": 4, 
+    "description": "Earth teeters on the brink of destruction in _Hellboy: Seed of Destruction_ #3, with\nonly Hellboy, the World's Greatest Paranormal Investigator, there to right the balance.\n\nThings get even uglier as Hellboy explores the decaying temple beneath the\nCavendish mansion and discovers an ancient evil that threatens to unleash dark, unholy forces from the dawn of time, using Hellboy's companion Liz as its unwitting tool.\n\n", 
+    "writers": [
+      13, 
+      14
+    ], 
+    "artists": [
+      13
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/1efdc48e4f9045e7b5821a7e711edba5/public/cover_image", 
+    "issue_number": 3
+  }
+},
+{
+  "pk": 22, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Hellboy: Seed of Destruction #4", 
+    "series": 4, 
+    "description": "In _Hellboy: Seed of Destruction_ #4, Hellboy's first adventure reaches its chilling climax!\n\nFar beneath the tumbling walls of the Cavendish mansion, Hellboy battles the grasping fingers of a giant bony hand as the world lurches toward its horrific end through the\nunholy sacrifice of Hellboy's pal Liz Sherman. Hellboy's ichthyoid companion\ncould save the day, but Abe Sapien is\u2026_gone_! Ghosts, tentacles, fire,\nbrimstone, paralysis, massive destruction\u2014it's all here!\n\n", 
+    "writers": [
+      13, 
+      14
+    ], 
+    "artists": [
+      13
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/50799f9fafe64bfe9379cd669eb5430a/public/cover_image", 
+    "issue_number": 4
+  }
+},
+{
+  "pk": 23, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Star Wars: Crimson Empire #1", 
+    "series": 5, 
+    "description": "Kir Kanos is the last surviving member of the elite Crimson Guard! He's on the run -- and the Empire will stop at nothing to destroy him! \n\nThis story features flashback appearances detailing the unknown pasts of Emperor Palpatine and Darth Vader!", 
+    "writers": [
+      15, 
+      16
+    ], 
+    "artists": [
+      17, 
+      18, 
+      19
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/3f96296c0a954f6b82f8090f5e400444/public/cover_image", 
+    "issue_number": 1
+  }
+},
+{
+  "pk": 24, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Star Wars: Crimson Empire #2", 
+    "series": 5, 
+    "description": "The last member of the Crimson Guard, Kir Kanos, has found some possible\nallies with a band of Rebels\u2026but can they trust a former servant of the\nevil Emperor? This issue also details an amazing untold encounter with Darth\nVader and Emperor Palpatine. Plus, not one, but _two_ groups of Imperials are\nafter Kanos\u2014with their _own_ agendas!", 
+    "writers": [
+      15, 
+      16
+    ], 
+    "artists": [
+      17, 
+      18, 
+      19
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/e473c2d9602445f388b9ecb02792c780/public/cover_image", 
+    "issue_number": 2
+  }
+},
+{
+  "pk": 25, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Star Wars: Crimson Empire #3", 
+    "series": 5, 
+    "description": "Mirith Sinn's band of Rebels is under siege by the Empire as their hideout is\ndiscovered! And who should come to their rescue but\u2026Kir Kanos, the last\nmember of the Crimson Guard! Is he on their side\u2014or is there another\nreason he is fighting with them? This issue finally reveals just why the\nEmpire is after Kanos\u2014and why Kanos is after Carnor Jax, the Imperial who\ncovets the Empire's throne! Plus, at last, you'll learn just what happened to\nthe Crimson Guard after the death of the Emperor in _Empire's End_!", 
+    "writers": [
+      15, 
+      16
+    ], 
+    "artists": [
+      17, 
+      18, 
+      19
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/b65922a297af416cb0c32566e90deab0/public/cover_image", 
+    "issue_number": 3
+  }
+},
+{
+  "pk": 26, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Star Wars: Crimson Empire #4", 
+    "series": 5, 
+    "description": "The Rebels recover from last issue's Imperial attack and are forced to abandon\ntheir secret base\u2014but not before they deal with Tem Merkon, the traitor in\ntheir midst! And if they thought an attack by the Empire was bad, wait till\nthey find out that the evil Carnor Jax and his elite stormtroopers have\narrived\u2026and he's after the Rebel leader, Mirith Sinn! Will she betray\nthe location of Kir Kanos? And where _is_ he, anyway? Find out in the next\nchapter of this incredible, star-studded saga!", 
+    "writers": [
+      15, 
+      16
+    ], 
+    "artists": [
+      17, 
+      18, 
+      19
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/303d4aa956134142a20b539f04007668/public/cover_image", 
+    "issue_number": 4
+  }
+},
+{
+  "pk": 27, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Star Wars: Crimson Empire #5", 
+    "series": 5, 
+    "description": "The all-new Rogue Squadron debuts in action in this battle-filled chapter.\nIt's all coming to a head\u2014the Rebels, now discovered by the Empire, are\nfighting for their lives in space, while on the planet Phaeda, Carnor Jax and\nhis personal guard of stormtroopers search for Kir Kanos. The final battle of\nthe last of the Royal Guards is about to begin\u2014and _you've_ got a ringside\nseat!", 
+    "writers": [
+      15, 
+      16
+    ], 
+    "artists": [
+      17, 
+      18, 
+      19
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/01e51545cdaa4a2eb459a915907bc9fa/public/cover_image", 
+    "issue_number": 5
+  }
+},
+{
+  "pk": 28, 
+  "model": "comics.book", 
+  "fields": {
+    "name": "Star Wars: Crimson Empire #6", 
+    "series": 5, 
+    "description": "This is it! The final battle: the last of the Royal Guards, Kir Kanos versus\nCarnor Jax\u2014and only one walks away. Who wins? Who dies? And what is the\nfate of the Rebels? Find out in the amazing, action-filled conclusion to the\nsaga that showed us a whole new side of the _Star Wars_ universe!", 
+    "writers": [
+      15, 
+      16
+    ], 
+    "artists": [
+      17, 
+      18, 
+      19
+    ], 
+    "cover_image": "https://d35n03719o0h6x.cloudfront.net/575b8c117d694848ae311063f2b6582a/public/cover_image", 
+    "issue_number": 6
+  }
+}
+]

@@ -17,10 +17,10 @@ class Contributor(models.Model):
 
 class Book(models.Model):
     name = models.CharField(max_length=64)
-    description = models.TextField()
     series = models.ForeignKey(Series)
     issue_number = models.PositiveIntegerField()
-    cover_image = models.URLField()
+    description = models.TextField(null=True, blank=True)
+    cover_image = models.URLField(null=True, blank=True)
     writers = models.ManyToManyField(Contributor, related_name='writer_books')
     artists = models.ManyToManyField(Contributor, related_name='artist_books')
 
