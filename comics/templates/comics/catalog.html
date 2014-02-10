@@ -1,0 +1,23 @@
+<ul>
+{% regroup books by series as series_list %}
+{% for series in series_list %}
+    <li>{{ series.grouper.name }}
+        <ul>
+            {% for book in series.list %}
+            <li>{{ book.name }}
+                <ul>Writers:
+                    {% for writer in book.writers.all %}
+                        <li>{{ writer.name }}</li>
+                    {% endfor %}
+                </ul>
+                <ul>Artists:
+                    {% for artist in book.artists.all %}
+                        <li>{{ artist.name }}</li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% endfor %}
+        </ul>
+    </li>
+{% endfor %}
+</ul>

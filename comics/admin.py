@@ -1,3 +1,6 @@
 from django.contrib import admin
+from comics.models import Book, Series, Contributor
 
-# Register your models here.
+admin.site.register(Book)
+admin.site.register(Series)
+admin.site.register(Contributor)
