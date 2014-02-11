@@ -1,7 +1,7 @@
-Prerequisites:
-python 2.7
-pip
-sqlite
+Prerequisites:  
+python 2.7  
+pip  
+sqlite  
 
 To set up:  
 `pip install -r requirements.txt`  
