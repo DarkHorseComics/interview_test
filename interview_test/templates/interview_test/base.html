@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Dark Horse Interview Test{% endblock %}</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #header {
+            width: 100%;
+            margin: 0;
+            padding: 10px;
+            background-color: #081B40;
+            color: white;
+        }
+        #header a {
+            color: #72A0D0;
+        }
+    </style>
+</head>
+<body>
+<div id="header">
+    <h3>{% block page_title %}Dark Horse Comics{% endblock %}</h3>
+    {% block auth %}
+        {% if user.is_authenticated %}
+            <a href="{% url 'logout' %}?next={{ request.path|default:"/" }}">Log Out</a>
+        {% else %}
+            <a href="{% url 'login' %}?next={{ request.path|default:"/" }}">Log In</a>
+        {% endif %}
+    {% endblock %}
+</div>
+{% block content %}
+{% endblock %}
+</body>
+</html>

@@ -14,9 +14,7 @@ The problem
 ===========
 
 Add the following views:
-- A view to browse books in a series
-- A view to browse books by artist
-- A view to browse books by writer
+- A view to browse books in a series, artist, or writer
 - A view to allow an authenticated user to curate their own collection (i.e. indicate which books they own)
 
 Extra Credit

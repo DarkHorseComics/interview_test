@@ -1,3 +1,6 @@
+{% extends 'interview_test/base.html' %}
+
+{% block content %}
 <ul>
 {% regroup books by series as series_list %}
 {% for series in series_list %}
@@ -21,3 +24,4 @@
     </li>
 {% endfor %}
 </ul>
+{% endblock %}
