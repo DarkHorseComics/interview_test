@@ -1,6 +1,6 @@
 Prerequisites:  
 python 2.7  
-[pip](http://www.pip-installer.org/en/latest/installing.html)
+[pip](http://www.pip-installer.org/en/latest/installing.html)  
 sqlite  
 
 To set up:  
